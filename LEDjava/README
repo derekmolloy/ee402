@@ -1,0 +1,12 @@
+A very quick example of setting the Beaglebone LED state in Java
+ - Derek Molloy, Derek.Molloy@dcu.ie, www.derekmolloy.ie
+
+To execute this example you need to have a Java Virtual Machine (JVM) installed on the Beaglebone/Beaglebone Black. You can see my video at youtube.com/DerekMolloyDCU/ that explains how to do this.
+
+The source for the example is in: /src/ee402/
+as the class is in the package ee402
+
+The binary is also here and is in: /bin/ee402/
+To execute this, go to the directory /bin and type:
+
+java ee402.BasicLEDExample [On/Off]
