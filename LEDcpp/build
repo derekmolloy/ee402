@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "EE402 - Building the Test LED program on the Beaglebone Black"
+g++ makeLED.cpp -o makeLED
+echo "Finished"
