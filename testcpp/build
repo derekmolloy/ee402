@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "EE402 - Building the Test C++ Program on the Beaglebone Black"
+g++ test.cpp -o test
+echo "Finished"
