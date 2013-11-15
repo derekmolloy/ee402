@@ -1,0 +1,3 @@
+[http]
+	sslVerify = true
+	sslCAinfo = /etc/ssl/certs/ca-certificates.crt
