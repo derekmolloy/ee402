@@ -1,0 +1,2 @@
+#!/bin/bash
+g++ tmp36.cpp -o tmp36
