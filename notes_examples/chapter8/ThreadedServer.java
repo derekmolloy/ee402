@@ -45,7 +45,7 @@ public class ThreadedServer
             }	
             
             ThreadedConnectionHandler con = new ThreadedConnectionHandler(clientSocket);
-            con.start(); 
+            con.run(); 
             System.out.println("02. -- Finished communicating with client:" + clientSocket.getInetAddress().toString());
         }
         // Server is no longer listening for client connections - time to shut down.
